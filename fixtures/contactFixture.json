@@ -1,0 +1,18 @@
+{
+    "contact":{
+        "firstName": "John",
+        "lastName": "Maharjan",
+        "dateOfBirth": "2009-12-09",
+        "email": "bipashamaharjan4@gmail.com",
+        "phone": "1234567890",
+        "address": "Teku",
+        "city": "KTM",
+        "state": "3",
+        "postal": "201",
+        "country": "Nepal"
+
+    },
+    "contactEdit": {
+        "firstName" : "Ram"
+    }
+}
