@@ -44,7 +44,7 @@ test.describe('Contact testcases', () =>{
         await contact.contactEdit(contactTestData.contactEdit.firstName);
         await contact.validateContactCreated(contactTestData.contactEdit.firstName, contactTestData.contact.lastName,contact);
     })
-        test.only('Contact Delete test', async ({ page, request}) => {
+        test('Contact Delete test', async ({ page, request}) => {
         const Data = {
                   birthdate: "2009/05/12",
                     city: "Kathmandu",
